@@ -76,4 +76,4 @@ function limit3Decimals(value) {
     }
 }
 
-window.convertUnits(20)
+convertUnits(20)
