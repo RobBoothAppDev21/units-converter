@@ -30,7 +30,7 @@ function convertLength(value) {
         conversionString = `${value} meters = ${toFeet} feet | ${value} feet = ${toMeters} meters`
     }
     
-    window.lengthEl.innerText = conversionString
+    lengthEl.innerText = conversionString
 }
 
 function convertVolume(value) {
@@ -45,7 +45,7 @@ function convertVolume(value) {
     } else {
         conversionString = `${value} liters = ${toGallons} gallons | ${value} gallons = ${toLiters} liters`
     }
-    window.volumeEl.innerText = conversionString
+    volumeEl.innerText = conversionString
 }
 
 function convertMass(value) {
@@ -61,7 +61,7 @@ function convertMass(value) {
         conversionString = `${value} kilos = ${toPounds} pounds | ${value} pounds = ${toKilos} pounds`
     }
     
-    window.massEl.innerText = conversionString
+    massEl.innerText = conversionString
 }
 
 function convertUnits(value = 20) {
