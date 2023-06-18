@@ -5,7 +5,7 @@ const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function() {
     let unitsInput = document.getElementById("num-input")
-    window.convertUnits(unitsInput.value)
+    convertUnits(unitsInput.value)
 })
 
 const metersToFeet = 3.281
