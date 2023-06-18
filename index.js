@@ -1,8 +1,3 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
 let lengthEl = document.getElementById("length-results-el")
 let volumeEl = document.getElementById("volume-results-el")
 let massEl = document.getElementById("mass-results-el")
