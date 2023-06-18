@@ -36,10 +36,10 @@ body {
     padding: 0px;
 }
 
-/* #num-input::-webkit-inner-spin-button {
+#num-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-} */
+}
 
 #convert-btn {
     background: #FFFFFF;
