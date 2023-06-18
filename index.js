@@ -5,7 +5,7 @@ const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function() {
     let unitsInput = document.getElementById("num-input")
-    convertUnits(unitsInput.value)
+    window.convertUnits(unitsInput.value)
 })
 
 const metersToFeet = 3.281
@@ -30,7 +30,7 @@ function convertLength(value) {
         conversionString = `${value} meters = ${toFeet} feet | ${value} feet = ${toMeters} meters`
     }
     
-    lengthEl.innerText = conversionString
+    window.lengthEl.innerText = conversionString
 }
 
 function convertVolume(value) {
@@ -45,7 +45,7 @@ function convertVolume(value) {
     } else {
         conversionString = `${value} liters = ${toGallons} gallons | ${value} gallons = ${toLiters} liters`
     }
-    volumeEl.innerText = conversionString
+    window.volumeEl.innerText = conversionString
 }
 
 function convertMass(value) {
@@ -61,7 +61,7 @@ function convertMass(value) {
         conversionString = `${value} kilos = ${toPounds} pounds | ${value} pounds = ${toKilos} pounds`
     }
     
-    massEl.innerText = conversionString
+    window.massEl.innerText = conversionString
 }
 
 function convertUnits(value = 20) {
@@ -76,4 +76,4 @@ function limit3Decimals(value) {
     }
 }
 
-convertUnits(20)
+window.convertUnits(20)
